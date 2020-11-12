@@ -1,4 +1,4 @@
-#include main
+#include<stdio.h>
 void average(){
 return(1999);
 }
