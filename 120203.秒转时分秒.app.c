@@ -6,5 +6,5 @@ void main(){
 	b=a/3600;
 	c=(a%3600)/60;
 	d=a-3600*b-60*c;
-	printf("%d时%d分%d秒",b,c,d);
+	printf("%02d时%02d分%02d秒",b,c,d);
 }
