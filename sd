@@ -1,0 +1,55 @@
+#include<stdio.h>
+#include<windows.h>
+void main(){
+	int key=15;
+    int x;
+	printf("小霸王猜数字机\n");
+	printf("请输入0到20以内的数字\n");
+	scanf("%d",&x);
+	if(key==x){
+		printf("恭喜小霸王猜对了");
+	}
+	else if(x>key){
+		printf("你猜的太大了");
+	}
+	else if(x<key){
+		printf("你猜的太小了");
+	}
+	else{
+		printf("请输入0到20以内的数字");
+	}
+}
+
+
+
+
+#include <stdio.h>
+#include <string.h>
+#include<windows.h>
+int main()
+{
+	char arr1[] = "宝塔镇河妖";	
+	char arr2[10] = "";
+	int key=15;
+    int x;
+	{
+		printf("请输入密码：");
+		scanf("%s", arr2);
+		if (strcmp(arr2, arr1) == 0)	
+		{
+			printf("登录成功!\n");	
+		}
+	}
+	if(key==x){
+		printf("恭喜小霸王猜对了");
+	}
+	else if(x>key){
+		printf("你猜的太大了");
+	}
+	else if(x<key){
+		printf("你猜的太小了");
+	}
+	else{
+		printf("请输入0到20以内的数字");
+	}
+}
